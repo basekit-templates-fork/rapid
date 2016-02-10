@@ -6,9 +6,10 @@
     "templateType":"standard",
     "widgetVersion":2,
     "images":[
+        "images/image-1.jpg",
         "images/feature-image.jpg",
         "images/logo.png",
-        "images/image-1.jpg"
+        "images/background.jpg"
     ],
     "colorSwatches":
     {
