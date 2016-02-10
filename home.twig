@@ -4,49 +4,13 @@
 
 {% include "includes/header.twig" %}
 
-<div class="profile-header">
-    <div class="header-wrapper">
-        <div class="widgetcontent-left">
-            {{widget('content', 'widgetcontentleft', {content: '<p>Lorem ipsum dolor sit amet</p>'})|raw}}
-        </div>
-        <div class="widgetprofile-right">
-            {{widget('profile', 'headerprofilesocialicons', { 'profileType':'socialicons', 'socialicons':'profile'})|raw}}
-        </div>
-    </div>
-</div>
-
 <div class="homepage-slideshow">
-	{{widget('responsiveslideshow', 'slideshow', {
-	    'duration':'3',
-	    'transSpeed': '1000',
-	    'transType': 'fade',
-	    'showButtons': true,
-	    'showBullets': false,
-	    'allowPause': false,
-	    'allowLoop': true,
-	    'images':[
-	      {
-	        'imageHeight':'400',
-	        'imageWidth':'1000',
-	        'url':asset('/images/slideshow/slideshow-1.jpg'),
-            'title':'First slide title',
-            'description': 'First slide description'
-	      },
-	      {
-	        'imageHeight':'400',
-	        'imageWidth':'1000',
-	        'url':asset('/images/slideshow/slideshow-2.jpg'),
-            'title':'First slide title',
-            'description': 'First slide description'
-	      },
-	      {
-	        'imageHeight':'400',
-	        'imageWidth':'1000',
-	        'url':asset('/images/slideshow/slideshow-3.jpg'),
-            'title':'First slide title',
-            'description': 'First slide description'
-	      }
-	    ]
+	{{widget('feature', 'featurehome', {
+	"header": "profile", 
+	"defaultBgImg": asset('images/feature-image.jpg'), 
+	'positionTopPercentage': '30',
+	'showBtn': true, 
+	"buttonText":"Click Here"
 	})|raw}}
 </div>
 
