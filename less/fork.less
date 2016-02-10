@@ -38,7 +38,13 @@ body {
 
 .headercontent-wrapper {
     @media @tablet {
-        margin-bottom: 20px;
+        margin: 20px 0;
+    }
+}
+
+.header-logo {
+    @media @tablet {
+        margin-bottom: 10px;
     }
 }
 
@@ -293,6 +299,17 @@ button,
     margin: 0px auto 20px;
 }
 
+.blogpostlist .post-article {
+    border: 8px solid #f5f5f5;
+    &:after {
+        display: none;
+    }
+}
+
 .yelpreview__review-list {
     background-color: #F3F3F3;
+}
+
+.template-footer .twitter__account-name {
+    color: white;
 }
