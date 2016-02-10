@@ -1,3 +1,12 @@
+// --------------------------------
+// Bakery: CSS > Fork
+// --------------------------------
+
+
+// -----------------------------
+// Body
+// -----------------------------
+
 body {
     width: 1300px;
     margin: 0px auto;
@@ -23,6 +32,13 @@ body {
     border-bottom: 1px solid #eeeeee;
 }
 
+
+
+
+// -----------------------------
+// Header + Footer
+// -----------------------------
+
 .template-header {
     position: fixed;
     z-index: 99999;
@@ -34,6 +50,11 @@ body {
     @media @tablet {
         position: relative;
     }
+}
+
+.template-content,
+.template-header {
+    background-color: @color-swatch1;
 }
 
 .headercontent-wrapper {
@@ -48,6 +69,17 @@ body {
     }
 }
 
+.template-footer .twitter__account-name {
+    color: #ffffff;
+}
+
+
+
+
+// -----------------------------
+// Navigation
+// -----------------------------
+
 .navigation-list--children {
     background-color: @color-swatch1;
 }
@@ -58,6 +90,13 @@ body {
     }
 }
 
+
+
+
+// -----------------------------
+// Feature
+// -----------------------------
+
 .feature__content-wrap {
     padding: 200px 9% 150px!important;
     @media @tablet {
@@ -66,67 +105,6 @@ body {
     @media @mobile {
         padding: 50px 20px!important;
     }
-}
-
-
-.gallery {
-    .gallery-item {
-        position: relative;
-        width: 32%;
-        margin-bottom: 15px;
-        .image-title {
-            font-size: @font__h4--font-size;
-            line-height: @font__h4--line-height;
-            font-weight: @font__h3--font-weight;
-        }
-    }  
-}
-
-.gallery__image-link {
-    display: block;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    padding-bottom: 70%;
-}
-
-.gallery__caption-link {
-    padding: 30px;
-}
-
-.template-content,
-.template-header {
-    background-color: @color-swatch1;
-}
-
-.homepage-slideshow .responsiveslideshow__figure {
-    padding-bottom: 40%;
-}
-
-form:after, 
-.form:after {
-    border: 8px solid #F5F5F5;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-}
-
-.signupform__label, 
-.contactform__legend, 
-.blogsearch__legend {
-    font-weight: @font__h4--font-weight;
-}
-
-.button,
-button,
-.blogpostlist__read-more {
-    padding: 10px 20px;
-    border-bottom: 4px solid darken(@color__feature-button--background, 5%);
-}
-
-.socialicons__social-link {
-    color: @color__h1--text;
 }
 
 // Horizontal version, Larger type
@@ -267,6 +245,101 @@ button,
     clear: both;
 }
 
+
+
+
+// -----------------------------
+// Gallery
+// -----------------------------
+
+.gallery {
+    .gallery-item {
+        position: relative;
+        width: 32%;
+        margin-bottom: 15px;
+        .image-title {
+            font-size: @font__h4--font-size;
+            line-height: @font__h4--line-height;
+            font-weight: @font__h3--font-weight;
+        }
+    }  
+}
+
+.gallery__image-link {
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 70%;
+}
+
+.gallery__caption-link {
+    padding: 30px;
+}
+
+.template-content,
+.template-header {
+    background-color: @color-swatch1;
+}
+
+.homepage-slideshow .responsiveslideshow__figure {
+    padding-bottom: 40%;
+}
+
+
+
+
+// -----------------------------
+// Forms
+// -----------------------------
+
+form:after, 
+.form:after {
+    border: 8px solid #F5F5F5;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.signupform__label, 
+.contactform__legend, 
+.blogsearch__legend {
+    font-weight: @font__h4--font-weight;
+}
+
+
+
+
+// -----------------------------
+// Buttons
+// -----------------------------
+
+.button,
+button,
+.blogpostlist__read-more {
+    padding: 10px 20px;
+    border-bottom: 4px solid darken(@color__feature-button--background, 5%);
+}
+
+
+
+
+// -----------------------------
+// #Social Icons
+// -----------------------------
+
+.socialicons__social-link {
+    color: @color__h1--text;
+}
+
+
+
+
+// -----------------------------
+// Ecommerce
+// -----------------------------
+
 .header-basket {
     border-left: 0;
 }
@@ -284,6 +357,13 @@ button,
     background-color: darken(@color-swatch3, 5%);
     color: @color__ecomproductslist-product-price--text;
 }
+
+
+
+
+// -----------------------------
+// Blog
+// -----------------------------
 
 .blogpost__post-footer {
     border: 1px solid #e6e6e6;
@@ -306,10 +386,17 @@ button,
     }
 }
 
+
+
+
+// -----------------------------
+// Yelp
+// -----------------------------
+
 .yelpreview__review-list {
     background-color: #F3F3F3;
 }
 
-.template-footer .twitter__account-name {
-    color: white;
-}
+
+
+
