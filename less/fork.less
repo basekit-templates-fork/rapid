@@ -365,9 +365,22 @@ button,
     border-left: 0;
 }
 
+.ecomproductslist__product-item-title, 
+.ecomfeaturedproducts__product-item-title {
+    @media @mobile {
+        text-align: center;
+    }
+}
+
 .ecomproductslist__product-item-price, 
 .ecomfeaturedproducts__product-item-price {
     color: @color-swatch1;
+    @media @tablet {
+        width: 30%;
+    }
+    @media @mobile {
+        float: initial;
+    }
 }
 
 .ecomproductslist__button {
