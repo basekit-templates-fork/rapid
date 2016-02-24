@@ -1,13 +1,15 @@
 {
-    "name":"Bakery",
-    "thumbnail":"bakery.png",
-    "screenshot":"bakery-screenshot.jpg",
+    "name":"Rapid",
+    "thumbnail":"rapid.png",
+    "screenshot":"rapid-screenshot.jpg",
     "pageTypes":["home"],
     "templateType":"standard",
     "widgetVersion":2,
     "images":[
         "images/image-1.jpg",
         "images/feature-image.jpg",
+        "images/gallery-1.jpg",
+        "images/gallery-2.jpg",
         "images/logo.png",
         "images/background.jpg"
     ],
@@ -15,10 +17,10 @@
     {
         "Swatch 1": {
             "color1":"#ffffff",
-            "color2":"#ff6a7d",
-            "color3":"#ff6a7d",
-            "color4":"#ff6a7d",
-            "color5":"#92898b",
+            "color2":"#c91212",
+            "color3":"#c91212",
+            "color4":"#c91212",
+            "color5":"#a1a1a1",
             "color6":"#92898b",
             "color7":"#FFFFFF"
         },
@@ -60,41 +62,41 @@
         }
     },
     "fontSwatch": {
-       "title": "Pacifico",
+       "title": "Oswald",
         "font1": {
-            "font-family": "\"Pacifico\", \"Lobster\", Verdana, sans-serif",
-            "font-size": "34px",
+            "font-family": "\"Oswald\", Arial, sans-serif",
+            "font-size": "38px",
             "font-weight": "300",
-            "line-height": "42px",
+            "line-height": "46px",
             "color": "@color-swatch4",
             "letter-spacing": "1px"
         },
         "font2": {
-            "font-family": "\"Pacifico\", \"Lobster\", Verdana, sans-serif",
-            "font-size": "28px",
+            "font-family": "\"Oswald\", Arial, sans-serif",
+            "font-size": "32px",
             "font-weight": "300",
-            "line-height": "36px",
+            "line-height": "40px",
             "color": "@color-swatch4",
             "letter-spacing": "1px"
         },
         "font3": {
-            "font-family": "\"Raleway\", \"Lucida Grande\", Helvetica, sans-serif",
-            "font-size": "22px",
+            "font-family": "\"Montserrat\", \"Trebuchet MS\", Helvetica, sans-serif",
+            "font-size": "26px",
             "font-weight": "700",
-            "line-height": "30px",
+            "line-height": "34px",
             "color": "@color-swatch4",
             "letter-spacing": "1px"
         },
         "font4": {
-            "font-family": "\"Raleway\", \"Lucida Grande\", Helvetica, sans-serif",
-            "font-size": "18px",
+            "font-family": "\"Montserrat\", \"Trebuchet MS\", Helvetica, sans-serif",
+            "font-size": "20px",
             "font-weight": "400",
-            "line-height": "26px",
+            "line-height": "28px",
             "color": "@color-swatch4",
             "letter-spacing": "inherit"
         },
         "font5": {
-            "font-family": "\"Raleway\", \"Lucida Grande\", Helvetica, sans-serif",
+            "font-family": "\"Montserrat\", \"Trebuchet MS\", Helvetica, sans-serif",
             "font-size": "15px",
             "font-weight": "300",
             "line-height": "28px",
@@ -102,18 +104,18 @@
             "letter-spacing": "inherit"
         },
         "font6": {
-            "font-family": "\"Raleway\", \"Lucida Grande\", Helvetica, sans-serif",
+            "font-family": "\"Montserrat\", \"Trebuchet MS\", Helvetica, sans-serif",
             "font-size": "16px",
             "font-weight": "700",
             "line-height": "inherit",
-            "color": "@color-swatch4",
+            "color": "@color-swatch5",
             "color-hover": "@color-swatch2",
             "letter-spacing": "1px",
             "background-color": "@color-swatch1",
             "background-color-hover": "@color-swatch1"
          },
         "font7": {
-            "font-family": "\"Raleway\", \"Lucida Grande\", Helvetica, sans-serif",
+            "font-family": "\"Montserrat\", \"Trebuchet MS\", Helvetica, sans-serif",
             "font-size": "14px",
             "font-weight": "300",
             "line-height": "inherit",
@@ -123,23 +125,23 @@
             "background-color-hover": "@color-swatch3"
         },
         "font8": {
-            "font-family": "\"Raleway\", \"Lucida Grande\", Helvetica, sans-serif",
-            "font-size": "52px",
+            "font-family": "\"Oswald\", Arial, sans-serif",
+            "font-size": "72px",
             "font-weight": "300",
-            "line-height": "62px",
-            "color": "@color-swatch4",
+            "line-height": "86px",
+            "color": "@color-swatch1",
             "letter-spacing": "0px"
         },
         "font9": {
-            "font-family": "\"Raleway\", \"Lucida Grande\", Helvetica, sans-serif",
+            "font-family": "\"Montserrat\", \"Trebuchet MS\", Helvetica, sans-serif",
             "font-size": "16px",
             "font-weight": "300",
             "line-height": "32px",
-            "color": "@color-swatch4",
-            "letter-spacing": "1px"
+            "color": "@color-swatch1",
+            "letter-spacing": "0px"
         },
         "font10": {
-            "font-family": "\"Pacifico\", \"Lobster\", Verdana, sans-serif",
+            "font-family": "\"Oswald\", Arial, sans-serif",
             "font-size": "30px",
             "font-weight": "700",
             "line-height": "inherit",
@@ -222,8 +224,8 @@
         },
         "feature": {
             "color__feature-content--background" : "#000000",
-            "color__feature-headline--text" : "@color-swatch4",
-            "color__feature-strapline--text" : "@color-swatch6",
+            "color__feature-headline--text" : "@color-swatch1",
+            "color__feature-strapline--text" : "@color-swatch1",
             "color__feature-button--background" : "@color-swatch3",
             "color__feature-button--background--hover" : "@color-swatch3",
             "color__feature-button--text" : "@font-swatch7-color",

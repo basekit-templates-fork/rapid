@@ -1,6 +1,8 @@
 // --------------------------------
-// Bakery: CSS > Fork
+// Rapid: CSS > Fork
 // --------------------------------
+
+
 
 
 // -----------------------------
@@ -114,6 +116,8 @@ body {
 }
 
 
+
+
 // -----------------------------
 // Feature
 // -----------------------------
@@ -182,7 +186,7 @@ body {
     width: 100%;
     vertical-align: middle;
     display: block;
-    background-color: transparent;
+    background-color: fade(@color__feature-content--background, 20%);
     padding: 200px 9% 150px!important;
 
     @media @tablet {
@@ -265,21 +269,50 @@ body {
 
 
 
+
 // -----------------------------
 // Gallery + Slideshow
 // -----------------------------
 
+
+// Homepage Gallery
+// -----------------
+
+.homepage-gallery {
+    .gallery {
+         .gallery-item {
+             position: relative;
+             width: 50%;
+             margin-bottom: 15px;
+             .image-title {
+                 font-size: @font__h1--font-size;
+                 line-height: @font__h1--line-height;
+                 font-weight: @font__h1--font-weight;
+                 font-family: @font__h1--font-family;
+             }
+         }  
+    }
+    .gallery__image-link {
+        padding-bottom: 50%;
+    }
+}
+
 .gallery {
     .gallery-item {
         position: relative;
-        width: 32%;
+        width: 32.5%;
         margin-bottom: 15px;
         .image-title {
-            font-size: @font__h4--font-size;
-            line-height: @font__h4--line-height;
-            font-weight: @font__h3--font-weight;
+            font-size: @font__h1--font-size;
+            line-height: @font__h1--line-height;
+            font-weight: @font__h1--font-weight;
+            font-family: @font__h1--font-family;
         }
     }  
+}
+
+.gallery__figure:hover .gallery__caption:after {
+    display: none;
 }
 
 .gallery__image-link {
@@ -288,6 +321,10 @@ body {
     background-position: center;
     background-size: cover;
     padding-bottom: 70%;
+}
+
+.gallery__caption {
+    border: 0;
 }
 
 .gallery__caption-link {
